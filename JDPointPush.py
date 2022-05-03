@@ -2,8 +2,8 @@
 import requests
 import time
 
-# 京东API地址
-jd_base_url = "https://mobile-api.jdcloud.com/v1/regions/cn-north-1/"
+# 京东API地址, 2022年刷新 mobile-api.jdcloud.com =>router-app-api.jdcloud.com
+jd_base_url = "https://router-app-api.jdcloud.com/v1/regions/cn-north-1/"
 
 # Server酱 如 https://sc.ftqq.com/abc123456789.send
 server_chan_url = "https://sc.ftqq.com/填写你的Key.send"
